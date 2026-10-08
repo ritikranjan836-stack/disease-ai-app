@@ -8,9 +8,12 @@ model = joblib.load("disease_model.pkl")
 symptom_columns = joblib.load("symptom_columns.pkl")
 desc = pd.read_csv("symptom_Description.csv")
 precaution = pd.read_csv("symptom_precaution.csv")
+desc['Disease'] = desc['Disease'].str.strip()
+precaution['Disease'] = precaution['Disease'].str.strip()
 
 # ---------- Helper functions (same logic as Colab) ----------
 def get_disease_info(disease_name):
+    disease_name = disease_name.strip()
     desc_row = desc[desc['Disease'] == disease_name]
     description = desc_row['Description'].values[0] if not desc_row.empty else "No description available."
 
