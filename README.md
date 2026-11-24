@@ -190,7 +190,7 @@ Python, pandas, scikit-learn, joblib, Streamlit, FastAPI, uvicorn, GitHub, Strea
 
 **[Ritik Ranjan]**
 GitHub: [@ritikranjan836-stack](https://github.com/ritikranjan836-stack)
-LinkedIn: [[add your profile link](https://www.linkedin.com/in/ritik-ranjan-01052007rr/)]
+LinkedIn: [[Ritik Ranjan](https://www.linkedin.com/in/ritik-ranjan-01052007rr/)]
 
 Built while completing an AI in Python course from IIT Pravartak.
 
